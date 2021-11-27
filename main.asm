@@ -46,13 +46,6 @@
 
 MAIN:
      _INIT_STACK
-    ; _ARRAY_POINTER               ; might not need this
-
-     ;--------------------Initialize Stack Pointer----------------------
-     ;LDI  R16, HIGH(RAMEND)
-     ;OUT  SPH, R16
-     ;LDI  R16, LOW(RAMEND)
-     ;OUT  SPL, R16
 
      ;--------------------Set Array Pointer Z----------------------------
      LDI  ZH, HIGH(ALL_LIGHTS1<<1)
