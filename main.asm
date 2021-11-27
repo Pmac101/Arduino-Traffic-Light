@@ -4,7 +4,7 @@
 ; Created: 11/20/2021 10:18:29 AM
 ; Author : Patrick McCormick
 ; Purpose: main TrafficLight file
-
+; this program controls two sets of traffic lights. does not have interrupt capabilities
 
 MAIN:
      ldi  r16, high(RAMEND)
